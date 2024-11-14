@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: source_1_current
+    columns:
+      - name: name
+      - name: credential_type
+      - name: credential_number
+      - name: status
+      - name: expiration_date
+      - name: has_disciplinary_action
+      - name: address
+      - name: state
+      - name: county
+      - name: phone
+      - name: first_issue_date
+      - name: primary_contact_name
+      - name: primary_contact_role

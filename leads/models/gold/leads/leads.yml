@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: leads
+    columns:
+      - name: accepts_financial_aid
+      - name: ages_served
+      - name: capacity
+      - name: certificate_expiration_date
+      - name: city
+      - name: address1
+      - name: address2
+      - name: company
+      - name: phone
+      - name: phone2
+      - name: county
+      - name: curriculum_type
+      - name: email
+      - name: first_name
+      - name: language
+      - name: last_name
+      - name: license_status
+      - name: license_issued
+      - name: license_mumber
+      - name: license_renewed
+      - name: license_type
+      - name: licensee_name
+      - name: max_age
+      - name: min_age
+      - name: operator
+      - name: provider_id
+      - name: schedule
+      - name: state 
+      - name: title
+      - name: webside_address
+      - name: zip
+      - name: facility_type
+      - name: contributing_source

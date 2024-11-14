@@ -1,0 +1,90 @@
+version: 2
+
+sources:
+  - name: csv_sources
+    schema: raw
+    tables:
+      - name: source_1_raw
+        columns:
+          - name: name
+          - name: credential_type
+          - name: credential_number
+          - name: status
+          - name: expiration_date
+          - name: disciplinary_action
+          - name: address
+          - name: state
+          - name: county
+          - name: phone
+          - name: first_issue_date
+          - name: primary_contact_name
+          - name: primary_contact_role
+          - name: _file_name
+          - name: _relative_path
+          - name: _modification_date
+          - name: _dlt_load_id
+          - name: _dlt_id
+
+      - name: source_2_raw
+        columns:
+          - name: type_license
+          - name: company
+          - name: accespts_subsidy
+          - name: year_round
+          - name: daytime_hours
+          - name: star_level
+          - name: mon
+          - name: tues
+          - name: wed
+          - name: thurs
+          - name: friday
+          - name: saturday
+          - name: sunday
+          - name: primary_caregiver
+          - name: phone
+          - name: email
+          - name: address1
+          - name: address2
+          - name: city
+          - name: state
+          - name: zip
+          - name: subsidy_contract_number
+          - name: total_cap
+          - name: ages_accepted_1
+          - name: aa2
+          - name: aa3
+          - name: aa4 
+          - name: license_monitoring_since
+          - name: school_year_only
+          - name: evening_hours
+          - name: _file_name
+          - name: _relative_path
+          - name: _modification_date
+          - name: _dlt_load_id
+          - name: _dlt_id
+
+      - name: source_3_raw
+        columns: 
+          - name: operation
+          - name: operation_name
+          - name: address
+          - name: city
+          - name: state
+          - name: zip
+          - name: county
+          - name: phone
+          - name: type
+          - name: status
+          - name: issue_date
+          - name: capacity
+          - name: email_address
+          - name: facility_id
+          - name: infant
+          - name: toddler
+          - name: preschool
+          - name: school
+          - name: _file_name
+          - name: _relative_path
+          - name: _modification_date
+          - name: _dlt_load_id
+          - name: _dlt_id

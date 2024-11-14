@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: source_3_current
+    columns:
+      - name: operation
+      - name: operation_name
+      - name: address
+      - name: city
+      - name: state
+      - name: zip
+      - name: county
+      - name: phone
+      - name: type
+      - name: status
+      - name: issue_date
+      - name: capacity
+      - name: email_address
+      - name: facility_id
+      - name: infant
+      - name: toddler
+      - name: preschool
+      - name: school

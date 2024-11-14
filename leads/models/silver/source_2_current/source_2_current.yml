@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: source_2_current
+    columns:
+      - name: credential_type
+      - name: credential_number
+      - name: company
+      - name: accepts_subsidy
+      - name: is_year_round
+      - name: is_daytime_hours
+      - name: star_level
+      - name: monday_hours
+      - name: tuesday_hours
+      - name: wednesday_hours
+      - name: thursday_hours
+      - name: friday_hours
+      - name: saturday_hours
+      - name: sunday_hours
+      - name: primary_caregiver
+      - name: phone
+      - name: email
+      - name: address1
+      - name: city
+      - name: state
+      - name: zip
+      - name: subsidy_contract_number
+      - name: total_cap
+      - name: accepts_infant
+      - name: accepts_toddler
+      - name: accepts_preschool
+      - name: accepts_school 
+      - name: license_monitoring_since
